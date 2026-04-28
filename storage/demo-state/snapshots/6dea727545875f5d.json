@@ -1,8 +1,8 @@
 {
-  "snapshotId": "776d56b15b90d55c",
+  "snapshotId": "6dea727545875f5d",
   "datasetFingerprint": "orders.csv:19434:1777293936000|order_items.csv:9957:1777293936000|customers.csv:6575:1777293936000|inventory.csv:2056:1777293936000|support_tickets.csv:2349:1777293936000|campaigns.csv:556:1777293936000",
   "datasetPath": "C:\\Users\\Juan\\Desktop\\HACK-SCUFFERS\\scuffers-ops-control-tower\\data\\candidate_csvs",
-  "createdAt": "2026-04-28T18:22:07.831Z",
+  "createdAt": "2026-04-28T18:19:39.230Z",
   "launch": {
     "name": "DROP 04 - ECRU CAPSULE",
     "code": "DRP-04-ECR",
@@ -51,7 +51,7 @@
         "delayReason": null,
         "deliveryAttempts": 1,
         "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.669Z",
+        "fetchedAt": "2026-04-28T18:19:39.259Z",
         "source": "shipping_status_api"
       },
       "score": 0.86,
@@ -124,7 +124,7 @@
         "delayReason": null,
         "deliveryAttempts": 0,
         "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.539Z",
+        "fetchedAt": "2026-04-28T18:19:39.259Z",
         "source": "shipping_status_api"
       },
       "score": 0.6,
@@ -195,7 +195,7 @@
         "delayReason": null,
         "deliveryAttempts": 0,
         "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.556Z",
+        "fetchedAt": "2026-04-28T18:19:39.259Z",
         "source": "shipping_status_api"
       },
       "score": 0.583,
@@ -264,7 +264,7 @@
         "delayReason": null,
         "deliveryAttempts": 0,
         "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.763Z",
+        "fetchedAt": "2026-04-28T18:19:39.259Z",
         "source": "shipping_status_api"
       },
       "score": 0.561,
@@ -332,7 +332,7 @@
         "delayReason": null,
         "deliveryAttempts": 0,
         "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.596Z",
+        "fetchedAt": "2026-04-28T18:19:39.259Z",
         "source": "shipping_status_api"
       },
       "score": 0.557,
@@ -401,7 +401,7 @@
         "delayReason": null,
         "deliveryAttempts": 0,
         "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.644Z",
+        "fetchedAt": "2026-04-28T18:19:39.259Z",
         "source": "shipping_status_api"
       },
       "score": 0.531,
@@ -469,7 +469,7 @@
         "delayReason": null,
         "deliveryAttempts": 0,
         "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.564Z",
+        "fetchedAt": "2026-04-28T18:19:39.259Z",
         "source": "shipping_status_api"
       },
       "score": 0.502,
@@ -540,7 +540,7 @@
         "delayReason": null,
         "deliveryAttempts": 0,
         "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.540Z",
+        "fetchedAt": "2026-04-28T18:19:39.259Z",
         "source": "shipping_status_api"
       },
       "score": 0.501,
@@ -611,7 +611,7 @@
         "delayReason": null,
         "deliveryAttempts": 0,
         "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.540Z",
+        "fetchedAt": "2026-04-28T18:19:39.259Z",
         "source": "shipping_status_api"
       },
       "score": 0.492,
@@ -682,7 +682,7 @@
         "delayReason": null,
         "deliveryAttempts": 0,
         "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.540Z",
+        "fetchedAt": "2026-04-28T18:19:39.259Z",
         "source": "shipping_status_api"
       },
       "score": 0.491,
@@ -753,7 +753,7 @@
         "delayReason": null,
         "deliveryAttempts": 0,
         "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.644Z",
+        "fetchedAt": "2026-04-28T18:19:39.259Z",
         "source": "shipping_status_api"
       },
       "score": 0.463,
@@ -937,7 +937,7 @@
         "delayReason": null,
         "deliveryAttempts": 1,
         "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.644Z",
+        "fetchedAt": "2026-04-28T18:19:39.259Z",
         "source": "shipping_status_api"
       },
       "score": 0.425,
@@ -1353,7 +1353,7 @@
         "delayReason": null,
         "deliveryAttempts": 0,
         "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.571Z",
+        "fetchedAt": "2026-04-28T18:19:39.259Z",
         "source": "shipping_status_api"
       },
       "score": 0.391,
@@ -1650,7 +1650,7 @@
         "delayReason": null,
         "deliveryAttempts": 0,
         "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.597Z",
+        "fetchedAt": "2026-04-28T18:19:39.259Z",
         "source": "shipping_status_api"
       },
       "score": 0.38,
@@ -1832,7 +1832,7 @@
         "delayReason": null,
         "deliveryAttempts": 0,
         "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.644Z",
+        "fetchedAt": "2026-04-28T18:19:39.259Z",
         "source": "shipping_status_api"
       },
       "score": 0.369,
@@ -2187,7 +2187,7 @@
         "delayReason": null,
         "deliveryAttempts": 0,
         "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.669Z",
+        "fetchedAt": "2026-04-28T18:19:39.259Z",
         "source": "shipping_status_api"
       },
       "score": 0.35,
@@ -2373,7 +2373,7 @@
         "delayReason": null,
         "deliveryAttempts": 0,
         "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.576Z",
+        "fetchedAt": "2026-04-28T18:19:39.259Z",
         "source": "shipping_status_api"
       },
       "score": 0.348,
@@ -3017,7 +3017,7 @@
         "delayReason": null,
         "deliveryAttempts": 0,
         "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.763Z",
+        "fetchedAt": "2026-04-28T18:19:39.259Z",
         "source": "shipping_status_api"
       },
       "score": 0.319,
@@ -12574,10 +12574,10 @@
         "CMP-778",
         "HOODIE-BLK-M"
       ],
-      "id": "1a5302c0f71dd5a7",
-      "snapshotId": "776d56b15b90d55c",
+      "id": "5ae94d7fae22aeee",
+      "snapshotId": "6dea727545875f5d",
       "rank": 1,
-      "createdAt": "2026-04-28T18:22:08.766Z",
+      "createdAt": "2026-04-28T18:19:39.261Z",
       "status": "new"
     },
     {
@@ -12623,10 +12623,10 @@
         "ORD-10567",
         "CUS-2004"
       ],
-      "id": "2ef97545eb591bf4",
-      "snapshotId": "776d56b15b90d55c",
+      "id": "2226173bc592a7e4",
+      "snapshotId": "6dea727545875f5d",
       "rank": 2,
-      "createdAt": "2026-04-28T18:22:08.766Z",
+      "createdAt": "2026-04-28T18:19:39.261Z",
       "status": "new"
     },
     {
@@ -12671,10 +12671,10 @@
         "HOODIE-BLK-M",
         "CMP-778"
       ],
-      "id": "07468d87605cadfc",
-      "snapshotId": "776d56b15b90d55c",
+      "id": "dd7faa8b3fb78bcf",
+      "snapshotId": "6dea727545875f5d",
       "rank": 3,
-      "createdAt": "2026-04-28T18:22:08.766Z",
+      "createdAt": "2026-04-28T18:19:39.261Z",
       "status": "new"
     },
     {
@@ -12726,10 +12726,10 @@
         "CUS-2047",
         "CAP-BLK-OS"
       ],
-      "id": "4f240cd0d69b18c5",
-      "snapshotId": "776d56b15b90d55c",
+      "id": "137f0b6086490e14",
+      "snapshotId": "6dea727545875f5d",
       "rank": 4,
-      "createdAt": "2026-04-28T18:22:08.766Z",
+      "createdAt": "2026-04-28T18:19:39.261Z",
       "status": "new"
     },
     {
@@ -12775,10 +12775,10 @@
         "ORD-10517",
         "CUS-2049"
       ],
-      "id": "7912fc5ed96b133e",
-      "snapshotId": "776d56b15b90d55c",
+      "id": "3ef10f0accd85386",
+      "snapshotId": "6dea727545875f5d",
       "rank": 5,
-      "createdAt": "2026-04-28T18:22:08.766Z",
+      "createdAt": "2026-04-28T18:19:39.261Z",
       "status": "new"
     },
     {
@@ -12824,10 +12824,10 @@
         "ORD-10460",
         "CUS-2033"
       ],
-      "id": "4a1a2c23975424d8",
-      "snapshotId": "776d56b15b90d55c",
+      "id": "482b20f581221f43",
+      "snapshotId": "6dea727545875f5d",
       "rank": 6,
-      "createdAt": "2026-04-28T18:22:08.766Z",
+      "createdAt": "2026-04-28T18:19:39.261Z",
       "status": "new"
     },
     {
@@ -12872,10 +12872,10 @@
         "CMP-779",
         "TEE-WHT-S"
       ],
-      "id": "cbc1f5f404dcc822",
-      "snapshotId": "776d56b15b90d55c",
+      "id": "ac0741895e3b390c",
+      "snapshotId": "6dea727545875f5d",
       "rank": 7,
-      "createdAt": "2026-04-28T18:22:08.766Z",
+      "createdAt": "2026-04-28T18:19:39.261Z",
       "status": "new"
     },
     {
@@ -12920,10 +12920,10 @@
         "TEE-WHT-S",
         "CMP-779"
       ],
-      "id": "2769e2697ca539c8",
-      "snapshotId": "776d56b15b90d55c",
+      "id": "5d13fedaf4fed090",
+      "snapshotId": "6dea727545875f5d",
       "rank": 8,
-      "createdAt": "2026-04-28T18:22:08.766Z",
+      "createdAt": "2026-04-28T18:19:39.261Z",
       "status": "new"
     },
     {
@@ -12969,10 +12969,10 @@
         "ORD-10417",
         "CUS-2070"
       ],
-      "id": "d90fb22e5164f570",
-      "snapshotId": "776d56b15b90d55c",
+      "id": "6bee60d314c8c372",
+      "snapshotId": "6dea727545875f5d",
       "rank": 9,
-      "createdAt": "2026-04-28T18:22:08.766Z",
+      "createdAt": "2026-04-28T18:19:39.261Z",
       "status": "new"
     },
     {
@@ -13017,103 +13017,103 @@
         "CMP-780",
         "ZIP-BLK-M"
       ],
-      "id": "c66669b32828d657",
-      "snapshotId": "776d56b15b90d55c",
+      "id": "865f32ee06b568f3",
+      "snapshotId": "6dea727545875f5d",
       "rank": 10,
-      "createdAt": "2026-04-28T18:22:08.766Z",
+      "createdAt": "2026-04-28T18:19:39.261Z",
       "status": "new"
     }
   ],
   "notifications": [
     {
-      "id": "notif-1a5302c0f71dd5a7",
+      "id": "notif-5ae94d7fae22aeee",
       "category": "pause_campaign",
       "severity": "critical",
       "title": "Pausar CMP-778 sobre HOODIE-BLK-M",
       "message": "Campana activa empujando demanda ahora mismo. El SKU HOODIE-BLK-M concentra la presion mas inmediata. Owner sugerido: growth.",
       "targetId": "CMP-778",
-      "relatedActionId": "1a5302c0f71dd5a7",
+      "relatedActionId": "5ae94d7fae22aeee",
       "shouldNotifyTelegram": true,
       "deliveryStatus": "pending",
-      "createdAt": "2026-04-28T18:22:08.766Z"
+      "createdAt": "2026-04-28T18:19:39.261Z"
     },
     {
-      "id": "notif-2ef97545eb591bf4",
+      "id": "notif-2226173bc592a7e4",
       "category": "escalate_ticket",
       "severity": "critical",
       "title": "Escalar ticket TCK-5516",
       "message": "Ticket urgent abierto en soporte. Esta ligado al pedido ORD-10567. Owner sugerido: support.",
       "targetId": "TCK-5516",
-      "relatedActionId": "2ef97545eb591bf4",
+      "relatedActionId": "2226173bc592a7e4",
       "shouldNotifyTelegram": true,
       "deliveryStatus": "pending",
-      "createdAt": "2026-04-28T18:22:08.766Z"
+      "createdAt": "2026-04-28T18:19:39.261Z"
     },
     {
-      "id": "notif-07468d87605cadfc",
+      "id": "notif-dd7faa8b3fb78bcf",
       "category": "alert_stock",
       "severity": "critical",
       "title": "Proteger stock de HOODIE-BLK-M",
       "message": "Stock disponible critico (2 uds). Hay campanas activas amplificando el riesgo. Owner sugerido: inventory.",
       "targetId": "HOODIE-BLK-M",
-      "relatedActionId": "07468d87605cadfc",
+      "relatedActionId": "dd7faa8b3fb78bcf",
       "shouldNotifyTelegram": true,
       "deliveryStatus": "pending",
-      "createdAt": "2026-04-28T18:22:08.766Z"
+      "createdAt": "2026-04-28T18:19:39.261Z"
     },
     {
-      "id": "notif-4f240cd0d69b18c5",
+      "id": "notif-137f0b6086490e14",
       "category": "manual_review",
       "severity": "critical",
       "title": "Resolver bloqueo logistico ORD-10433",
       "message": "La Shipping Status API confirma un retraso en curso. La Shipping Status API cambia la prioridad de este pedido. Owner sugerido: operations.",
       "targetId": "ORD-10433",
-      "relatedActionId": "4f240cd0d69b18c5",
+      "relatedActionId": "137f0b6086490e14",
       "shouldNotifyTelegram": true,
       "deliveryStatus": "pending",
-      "createdAt": "2026-04-28T18:22:08.766Z"
+      "createdAt": "2026-04-28T18:19:39.261Z"
     },
     {
-      "id": "notif-7912fc5ed96b133e",
+      "id": "notif-3ef10f0accd85386",
       "category": "escalate_ticket",
       "severity": "high",
       "title": "Escalar ticket TCK-5510",
       "message": "Ticket urgent abierto en soporte. Esta ligado al pedido ORD-10517. Owner sugerido: support.",
       "targetId": "TCK-5510",
-      "relatedActionId": "7912fc5ed96b133e",
+      "relatedActionId": "3ef10f0accd85386",
       "shouldNotifyTelegram": true,
       "deliveryStatus": "pending",
-      "createdAt": "2026-04-28T18:22:08.766Z"
+      "createdAt": "2026-04-28T18:19:39.261Z"
     },
     {
-      "id": "notif-4a1a2c23975424d8",
+      "id": "notif-482b20f581221f43",
       "category": "escalate_ticket",
       "severity": "high",
       "title": "Escalar ticket TCK-5505",
       "message": "Ticket high abierto en soporte. Esta ligado al pedido ORD-10460. Owner sugerido: support.",
       "targetId": "TCK-5505",
-      "relatedActionId": "4a1a2c23975424d8",
+      "relatedActionId": "482b20f581221f43",
       "shouldNotifyTelegram": true,
       "deliveryStatus": "pending",
-      "createdAt": "2026-04-28T18:22:08.766Z"
+      "createdAt": "2026-04-28T18:19:39.261Z"
     },
     {
-      "id": "notif-d90fb22e5164f570",
+      "id": "notif-6bee60d314c8c372",
       "category": "escalate_ticket",
       "severity": "high",
       "title": "Escalar ticket TCK-5502",
       "message": "Ticket high abierto en soporte. Esta ligado al pedido ORD-10417. Owner sugerido: support.",
       "targetId": "TCK-5502",
-      "relatedActionId": "d90fb22e5164f570",
+      "relatedActionId": "6bee60d314c8c372",
       "shouldNotifyTelegram": true,
       "deliveryStatus": "pending",
-      "createdAt": "2026-04-28T18:22:08.766Z"
+      "createdAt": "2026-04-28T18:19:39.261Z"
     }
   ],
   "persistence": {
     "mode": "local_json",
     "persisted": true,
-    "persistedAt": "2026-04-28T18:22:08.768Z",
+    "persistedAt": "2026-04-28T18:19:39.300Z",
     "storeDir": "C:\\Users\\Juan\\Desktop\\HACK-SCUFFERS\\scuffers-ops-control-tower\\storage\\demo-state"
   }
 }

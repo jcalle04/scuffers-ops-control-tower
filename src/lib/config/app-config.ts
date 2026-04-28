@@ -19,8 +19,16 @@ export function getDatasetDirectory() {
   return path.join(process.cwd(), "data", "candidate_csvs");
 }
 
-export function getLocalStoreDirectory() {
+export function getBundledStoreDirectory() {
   return path.join(process.cwd(), "storage", "demo-state");
+}
+
+export function getLocalStoreDirectory() {
+  if (process.env.VERCEL === "1") {
+    return path.join("/tmp", "scuffers-ops-control-tower", "demo-state");
+  }
+
+  return getBundledStoreDirectory();
 }
 
 export function getShippingStatusApiConfig() {

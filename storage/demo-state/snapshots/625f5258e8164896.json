@@ -1,8 +1,8 @@
 {
-  "snapshotId": "776d56b15b90d55c",
+  "snapshotId": "625f5258e8164896",
   "datasetFingerprint": "orders.csv:19434:1777293936000|order_items.csv:9957:1777293936000|customers.csv:6575:1777293936000|inventory.csv:2056:1777293936000|support_tickets.csv:2349:1777293936000|campaigns.csv:556:1777293936000",
   "datasetPath": "C:\\Users\\Juan\\Desktop\\HACK-SCUFFERS\\scuffers-ops-control-tower\\data\\candidate_csvs",
-  "createdAt": "2026-04-28T18:22:07.831Z",
+  "createdAt": "2026-04-28T18:20:25.208Z",
   "launch": {
     "name": "DROP 04 - ECRU CAPSULE",
     "code": "DRP-04-ECR",
@@ -19,8 +19,27 @@
     "cvr": 0.003379139445821131,
     "cvrLabel": "0.34%"
   },
-  "warnings": [],
-  "summary": "Lanzamiento bajo presion: 1 SKU criticos, 11 tickets urgentes y 1 colisiones campana-stock de alta prioridad. La Shipping Status API confirma 3 pedidos con riesgo logistico real. Foco inmediato: Pausar CMP-778 sobre HOODIE-BLK-M; Escalar ticket TCK-5516; Proteger stock de HOODIE-BLK-M.",
+  "warnings": [
+    "shipping-status API no disponible para ORD-10552: Dynamic server usage: Route / couldn't be rendered statically because it used revalidate: 0 fetch https://lkuutmnykcnbfmbpopcu.functions.supabase.co/api/shipping-status/ORD-10552 /. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    "shipping-status API no disponible para ORD-10460: Dynamic server usage: Route / couldn't be rendered statically because it used no-store fetch https://lkuutmnykcnbfmbpopcu.functions.supabase.co/api/shipping-status/ORD-10460 /. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    "shipping-status API no disponible para ORD-10475: Dynamic server usage: Route / couldn't be rendered statically because it used no-store fetch https://lkuutmnykcnbfmbpopcu.functions.supabase.co/api/shipping-status/ORD-10475 /. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    "shipping-status API no disponible para ORD-10567: Dynamic server usage: Route / couldn't be rendered statically because it used no-store fetch https://lkuutmnykcnbfmbpopcu.functions.supabase.co/api/shipping-status/ORD-10567 /. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    "shipping-status API no disponible para ORD-10517: Dynamic server usage: Route / couldn't be rendered statically because it used no-store fetch https://lkuutmnykcnbfmbpopcu.functions.supabase.co/api/shipping-status/ORD-10517 /. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    "shipping-status API no disponible para ORD-10466: Dynamic server usage: Route / couldn't be rendered statically because it used no-store fetch https://lkuutmnykcnbfmbpopcu.functions.supabase.co/api/shipping-status/ORD-10466 /. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    "shipping-status API no disponible para ORD-10417: Dynamic server usage: Route / couldn't be rendered statically because it used no-store fetch https://lkuutmnykcnbfmbpopcu.functions.supabase.co/api/shipping-status/ORD-10417 /. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    "shipping-status API no disponible para ORD-10539: Dynamic server usage: Route / couldn't be rendered statically because it used no-store fetch https://lkuutmnykcnbfmbpopcu.functions.supabase.co/api/shipping-status/ORD-10539 /. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    "shipping-status API no disponible para ORD-10556: Dynamic server usage: Route / couldn't be rendered statically because it used no-store fetch https://lkuutmnykcnbfmbpopcu.functions.supabase.co/api/shipping-status/ORD-10556 /. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    "shipping-status API no disponible para ORD-10420: Dynamic server usage: Route / couldn't be rendered statically because it used no-store fetch https://lkuutmnykcnbfmbpopcu.functions.supabase.co/api/shipping-status/ORD-10420 /. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    "shipping-status API no disponible para ORD-10505: Dynamic server usage: Route / couldn't be rendered statically because it used no-store fetch https://lkuutmnykcnbfmbpopcu.functions.supabase.co/api/shipping-status/ORD-10505 /. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    "shipping-status API no disponible para ORD-10433: Dynamic server usage: Route / couldn't be rendered statically because it used no-store fetch https://lkuutmnykcnbfmbpopcu.functions.supabase.co/api/shipping-status/ORD-10433 /. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    "shipping-status API no disponible para ORD-10527: Dynamic server usage: Route / couldn't be rendered statically because it used no-store fetch https://lkuutmnykcnbfmbpopcu.functions.supabase.co/api/shipping-status/ORD-10527 /. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    "shipping-status API no disponible para ORD-10515: Dynamic server usage: Route / couldn't be rendered statically because it used no-store fetch https://lkuutmnykcnbfmbpopcu.functions.supabase.co/api/shipping-status/ORD-10515 /. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    "shipping-status API no disponible para ORD-10499: Dynamic server usage: Route / couldn't be rendered statically because it used no-store fetch https://lkuutmnykcnbfmbpopcu.functions.supabase.co/api/shipping-status/ORD-10499 /. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    "shipping-status API no disponible para ORD-10566: Dynamic server usage: Route / couldn't be rendered statically because it used no-store fetch https://lkuutmnykcnbfmbpopcu.functions.supabase.co/api/shipping-status/ORD-10566 /. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    "shipping-status API no disponible para ORD-10513: Dynamic server usage: Route / couldn't be rendered statically because it used no-store fetch https://lkuutmnykcnbfmbpopcu.functions.supabase.co/api/shipping-status/ORD-10513 /. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    "shipping-status API no disponible para ORD-10578: Dynamic server usage: Route / couldn't be rendered statically because it used no-store fetch https://lkuutmnykcnbfmbpopcu.functions.supabase.co/api/shipping-status/ORD-10578 /. See more info here: https://nextjs.org/docs/messages/dynamic-server-error"
+  ],
+  "summary": "Lanzamiento bajo presion: 1 SKU criticos, 11 tickets urgentes y 1 colisiones campana-stock de alta prioridad. La Shipping Status API no ha detectado bloqueos logisticos criticos en los pedidos consultados. Foco inmediato: Pausar CMP-778 sobre HOODIE-BLK-M; Escalar ticket TCK-5516; Proteger stock de HOODIE-BLK-M.",
   "metrics": {
     "totalOrders": 180,
     "totalCustomers": 120,
@@ -32,77 +51,6 @@
     "topActionsCount": 10
   },
   "orderRisks": [
-    {
-      "orderId": "ORD-10433",
-      "customerId": "CUS-2047",
-      "sku": "CAP-BLK-OS",
-      "productName": "Black Cap",
-      "status": "payment_review",
-      "shippingMethod": "express",
-      "orderValue": 29.9,
-      "customerSegment": "new_customer",
-      "isVip": false,
-      "linkedTicketIds": [],
-      "shippingStatus": {
-        "orderId": "ORD-10433",
-        "shippingStatus": "delayed",
-        "estimatedDeliveryDate": "2026-05-03T00:00:00.000Z",
-        "delayRisk": 0.685,
-        "delayReason": null,
-        "deliveryAttempts": 1,
-        "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.669Z",
-        "source": "shipping_status_api"
-      },
-      "score": 0.86,
-      "severity": "critical",
-      "confidence": 0.99,
-      "reasons": [
-        "La Shipping Status API confirma un retraso en curso",
-        "La Shipping Status API estima un 69% de riesgo de retraso",
-        "Ya hubo 1 intento(s) de entrega",
-        "Pedido bloqueado en payment review",
-        "Entrega express con poco margen de error"
-      ],
-      "evidence": [
-        {
-          "type": "order",
-          "label": "order_status",
-          "value": "payment_review",
-          "weight": 1
-        },
-        {
-          "type": "shipping",
-          "label": "shipping_method",
-          "value": "express",
-          "weight": 0.85
-        },
-        {
-          "type": "shipping_api",
-          "label": "shipping_status",
-          "value": "delayed",
-          "weight": 0.88
-        },
-        {
-          "type": "shipping_api",
-          "label": "delay_risk",
-          "value": 0.685,
-          "weight": 0.805
-        },
-        {
-          "type": "support",
-          "label": "linked_tickets",
-          "value": 0,
-          "weight": 0
-        },
-        {
-          "type": "inventory",
-          "label": "inventory_risk",
-          "value": 0.299,
-          "weight": 0.299
-        }
-      ]
-    },
     {
       "orderId": "ORD-10517",
       "customerId": "CUS-2049",
@@ -116,20 +64,10 @@
       "linkedTicketIds": [
         "TCK-5510"
       ],
-      "shippingStatus": {
-        "orderId": "ORD-10517",
-        "shippingStatus": "in_transit",
-        "estimatedDeliveryDate": "2026-05-08T00:00:00.000Z",
-        "delayRisk": 0.254,
-        "delayReason": null,
-        "deliveryAttempts": 0,
-        "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.539Z",
-        "source": "shipping_status_api"
-      },
-      "score": 0.6,
+      "shippingStatus": null,
+      "score": 0.636,
       "severity": "medium",
-      "confidence": 0.99,
+      "confidence": 0.98,
       "reasons": [
         "Entrega express con poco margen de error",
         "Cliente ya ha abierto 1 ticket(s)",
@@ -151,14 +89,14 @@
         {
           "type": "shipping_api",
           "label": "shipping_status",
-          "value": "in_transit",
-          "weight": 0.24
+          "value": "not_queried",
+          "weight": 0
         },
         {
           "type": "shipping_api",
           "label": "delay_risk",
-          "value": 0.254,
-          "weight": 0.254
+          "value": null,
+          "weight": 0
         },
         {
           "type": "support",
@@ -187,20 +125,10 @@
       "linkedTicketIds": [
         "TCK-5502"
       ],
-      "shippingStatus": {
-        "orderId": "ORD-10417",
-        "shippingStatus": "at_sorting_center",
-        "estimatedDeliveryDate": "2026-05-08T00:00:00.000Z",
-        "delayRisk": 0.071,
-        "delayReason": null,
-        "deliveryAttempts": 0,
-        "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.556Z",
-        "source": "shipping_status_api"
-      },
-      "score": 0.583,
+      "shippingStatus": null,
+      "score": 0.601,
       "severity": "medium",
-      "confidence": 0.99,
+      "confidence": 0.98,
       "reasons": [
         "Entrega express con poco margen de error",
         "Cliente ya ha abierto 1 ticket(s)",
@@ -222,157 +150,20 @@
         {
           "type": "shipping_api",
           "label": "shipping_status",
-          "value": "at_sorting_center",
-          "weight": 0.34
+          "value": "not_queried",
+          "weight": 0
         },
         {
           "type": "shipping_api",
           "label": "delay_risk",
-          "value": 0.071,
-          "weight": 0.071
+          "value": null,
+          "weight": 0
         },
         {
           "type": "support",
           "label": "linked_tickets",
           "value": 1,
           "weight": 0.78
-        },
-        {
-          "type": "inventory",
-          "label": "inventory_risk",
-          "value": 0.743,
-          "weight": 0.743
-        }
-      ]
-    },
-    {
-      "orderId": "ORD-10466",
-      "customerId": "CUS-2050",
-      "sku": "ZIP-BLK-M",
-      "productName": "Black Zip Hoodie",
-      "status": "payment_review",
-      "shippingMethod": "express",
-      "orderValue": 79.9,
-      "customerSegment": "loyal_customer",
-      "isVip": false,
-      "linkedTicketIds": [],
-      "shippingStatus": {
-        "orderId": "ORD-10466",
-        "shippingStatus": "label_created",
-        "estimatedDeliveryDate": "2026-04-29T00:00:00.000Z",
-        "delayRisk": 0.155,
-        "delayReason": null,
-        "deliveryAttempts": 0,
-        "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.763Z",
-        "source": "shipping_status_api"
-      },
-      "score": 0.561,
-      "severity": "medium",
-      "confidence": 0.99,
-      "reasons": [
-        "Pedido bloqueado en payment review",
-        "Entrega express con poco margen de error"
-      ],
-      "evidence": [
-        {
-          "type": "order",
-          "label": "order_status",
-          "value": "payment_review",
-          "weight": 1
-        },
-        {
-          "type": "shipping",
-          "label": "shipping_method",
-          "value": "express",
-          "weight": 0.85
-        },
-        {
-          "type": "shipping_api",
-          "label": "shipping_status",
-          "value": "label_created",
-          "weight": 0.52
-        },
-        {
-          "type": "shipping_api",
-          "label": "delay_risk",
-          "value": 0.155,
-          "weight": 0.155
-        },
-        {
-          "type": "support",
-          "label": "linked_tickets",
-          "value": 0,
-          "weight": 0
-        },
-        {
-          "type": "inventory",
-          "label": "inventory_risk",
-          "value": 0.57,
-          "weight": 0.57
-        }
-      ]
-    },
-    {
-      "orderId": "ORD-10505",
-      "customerId": "CUS-2092",
-      "sku": "TEE-WHT-S",
-      "productName": "White Essential Tee",
-      "status": "processing",
-      "shippingMethod": "express",
-      "orderValue": 34.9,
-      "customerSegment": "loyal_customer",
-      "isVip": false,
-      "linkedTicketIds": [],
-      "shippingStatus": {
-        "orderId": "ORD-10505",
-        "shippingStatus": "label_created",
-        "estimatedDeliveryDate": "2026-05-06T00:00:00.000Z",
-        "delayRisk": 0.559,
-        "delayReason": null,
-        "deliveryAttempts": 0,
-        "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.596Z",
-        "source": "shipping_status_api"
-      },
-      "score": 0.557,
-      "severity": "medium",
-      "confidence": 0.99,
-      "reasons": [
-        "La Shipping Status API estima un 56% de riesgo de retraso",
-        "Entrega express con poco margen de error",
-        "El SKU TEE-WHT-S esta bajo tension operativa"
-      ],
-      "evidence": [
-        {
-          "type": "order",
-          "label": "order_status",
-          "value": "processing",
-          "weight": 0.6
-        },
-        {
-          "type": "shipping",
-          "label": "shipping_method",
-          "value": "express",
-          "weight": 0.85
-        },
-        {
-          "type": "shipping_api",
-          "label": "shipping_status",
-          "value": "label_created",
-          "weight": 0.52
-        },
-        {
-          "type": "shipping_api",
-          "label": "delay_risk",
-          "value": 0.559,
-          "weight": 0.559
-        },
-        {
-          "type": "support",
-          "label": "linked_tickets",
-          "value": 0,
-          "weight": 0
         },
         {
           "type": "inventory",
@@ -393,20 +184,10 @@
       "customerSegment": "loyal_customer",
       "isVip": false,
       "linkedTicketIds": [],
-      "shippingStatus": {
-        "orderId": "ORD-10475",
-        "shippingStatus": "picked_up",
-        "estimatedDeliveryDate": "2026-05-01T00:00:00.000Z",
-        "delayRisk": 0.213,
-        "delayReason": null,
-        "deliveryAttempts": 0,
-        "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.644Z",
-        "source": "shipping_status_api"
-      },
-      "score": 0.531,
+      "shippingStatus": null,
+      "score": 0.577,
       "severity": "medium",
-      "confidence": 0.99,
+      "confidence": 0.98,
       "reasons": [
         "Pedido bloqueado en payment review",
         "Entrega express con poco margen de error"
@@ -427,14 +208,14 @@
         {
           "type": "shipping_api",
           "label": "shipping_status",
-          "value": "picked_up",
-          "weight": 0.2
+          "value": "not_queried",
+          "weight": 0
         },
         {
           "type": "shipping_api",
           "label": "delay_risk",
-          "value": 0.213,
-          "weight": 0.213
+          "value": null,
+          "weight": 0
         },
         {
           "type": "support",
@@ -451,217 +232,6 @@
       ]
     },
     {
-      "orderId": "ORD-10513",
-      "customerId": "CUS-2021",
-      "sku": "HOODIE-BLK-M",
-      "productName": "Black Hoodie",
-      "status": "packed",
-      "shippingMethod": "express",
-      "orderValue": 69.9,
-      "customerSegment": "at_risk_customer",
-      "isVip": false,
-      "linkedTicketIds": [],
-      "shippingStatus": {
-        "orderId": "ORD-10513",
-        "shippingStatus": "in_transit",
-        "estimatedDeliveryDate": "2026-05-04T00:00:00.000Z",
-        "delayRisk": 0.536,
-        "delayReason": null,
-        "deliveryAttempts": 0,
-        "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.564Z",
-        "source": "shipping_status_api"
-      },
-      "score": 0.502,
-      "severity": "medium",
-      "confidence": 0.99,
-      "reasons": [
-        "La Shipping Status API estima un 54% de riesgo de retraso",
-        "Entrega express con poco margen de error",
-        "El SKU HOODIE-BLK-M esta bajo tension operativa"
-      ],
-      "evidence": [
-        {
-          "type": "order",
-          "label": "order_status",
-          "value": "packed",
-          "weight": 0.12
-        },
-        {
-          "type": "shipping",
-          "label": "shipping_method",
-          "value": "express",
-          "weight": 0.85
-        },
-        {
-          "type": "shipping_api",
-          "label": "shipping_status",
-          "value": "in_transit",
-          "weight": 0.24
-        },
-        {
-          "type": "shipping_api",
-          "label": "delay_risk",
-          "value": 0.536,
-          "weight": 0.536
-        },
-        {
-          "type": "support",
-          "label": "linked_tickets",
-          "value": 0,
-          "weight": 0
-        },
-        {
-          "type": "inventory",
-          "label": "inventory_risk",
-          "value": 0.865,
-          "weight": 0.865
-        }
-      ]
-    },
-    {
-      "orderId": "ORD-10552",
-      "customerId": "CUS-2062",
-      "sku": "TEE-WHT-M",
-      "productName": "White Essential Tee",
-      "status": "payment_review",
-      "shippingMethod": "express",
-      "orderValue": 34.9,
-      "customerSegment": "new_customer",
-      "isVip": false,
-      "linkedTicketIds": [
-        "TCK-5513"
-      ],
-      "shippingStatus": {
-        "orderId": "ORD-10552",
-        "shippingStatus": "picked_up",
-        "estimatedDeliveryDate": "2026-05-04T00:00:00.000Z",
-        "delayRisk": 0.266,
-        "delayReason": null,
-        "deliveryAttempts": 0,
-        "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.540Z",
-        "source": "shipping_status_api"
-      },
-      "score": 0.501,
-      "severity": "medium",
-      "confidence": 0.99,
-      "reasons": [
-        "Pedido bloqueado en payment review",
-        "Entrega express con poco margen de error",
-        "Cliente ya ha abierto 1 ticket(s)"
-      ],
-      "evidence": [
-        {
-          "type": "order",
-          "label": "order_status",
-          "value": "payment_review",
-          "weight": 1
-        },
-        {
-          "type": "shipping",
-          "label": "shipping_method",
-          "value": "express",
-          "weight": 0.85
-        },
-        {
-          "type": "shipping_api",
-          "label": "shipping_status",
-          "value": "picked_up",
-          "weight": 0.2
-        },
-        {
-          "type": "shipping_api",
-          "label": "delay_risk",
-          "value": 0.266,
-          "weight": 0.266
-        },
-        {
-          "type": "support",
-          "label": "linked_tickets",
-          "value": 1,
-          "weight": 0.78
-        },
-        {
-          "type": "inventory",
-          "label": "inventory_risk",
-          "value": 0.231,
-          "weight": 0.231
-        }
-      ]
-    },
-    {
-      "orderId": "ORD-10567",
-      "customerId": "CUS-2004",
-      "sku": "TEE-RED-L",
-      "productName": "Red Logo Tee",
-      "status": "paid",
-      "shippingMethod": "express",
-      "orderValue": 73.8,
-      "customerSegment": "vip_customer",
-      "isVip": true,
-      "linkedTicketIds": [
-        "TCK-5516"
-      ],
-      "shippingStatus": {
-        "orderId": "ORD-10567",
-        "shippingStatus": "in_transit",
-        "estimatedDeliveryDate": "2026-05-03T00:00:00.000Z",
-        "delayRisk": 0.15,
-        "delayReason": null,
-        "deliveryAttempts": 0,
-        "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.540Z",
-        "source": "shipping_status_api"
-      },
-      "score": 0.492,
-      "severity": "medium",
-      "confidence": 0.99,
-      "reasons": [
-        "Entrega express con poco margen de error",
-        "Cliente ya ha abierto 1 ticket(s)",
-        "Cliente VIP impactado"
-      ],
-      "evidence": [
-        {
-          "type": "order",
-          "label": "order_status",
-          "value": "paid",
-          "weight": 0.28
-        },
-        {
-          "type": "shipping",
-          "label": "shipping_method",
-          "value": "express",
-          "weight": 0.85
-        },
-        {
-          "type": "shipping_api",
-          "label": "shipping_status",
-          "value": "in_transit",
-          "weight": 0.24
-        },
-        {
-          "type": "shipping_api",
-          "label": "delay_risk",
-          "value": 0.15,
-          "weight": 0.15
-        },
-        {
-          "type": "support",
-          "label": "linked_tickets",
-          "value": 1,
-          "weight": 1
-        },
-        {
-          "type": "inventory",
-          "label": "inventory_risk",
-          "value": 0.257,
-          "weight": 0.257
-        }
-      ]
-    },
-    {
       "orderId": "ORD-10460",
       "customerId": "CUS-2033",
       "sku": "ZIP-BLK-M",
@@ -674,20 +244,10 @@
       "linkedTicketIds": [
         "TCK-5505"
       ],
-      "shippingStatus": {
-        "orderId": "ORD-10460",
-        "shippingStatus": "delivered",
-        "estimatedDeliveryDate": "2026-05-08T00:00:00.000Z",
-        "delayRisk": 0.05,
-        "delayReason": null,
-        "deliveryAttempts": 0,
-        "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.540Z",
-        "source": "shipping_status_api"
-      },
-      "score": 0.491,
+      "shippingStatus": null,
+      "score": 0.572,
       "severity": "medium",
-      "confidence": 0.99,
+      "confidence": 0.98,
       "reasons": [
         "Entrega express con poco margen de error",
         "Cliente ya ha abierto 1 ticket(s)",
@@ -709,14 +269,14 @@
         {
           "type": "shipping_api",
           "label": "shipping_status",
-          "value": "delivered",
-          "weight": 0.02
+          "value": "not_queried",
+          "weight": 0
         },
         {
           "type": "shipping_api",
           "label": "delay_risk",
-          "value": 0.05,
-          "weight": 0.05
+          "value": null,
+          "weight": 0
         },
         {
           "type": "support",
@@ -745,20 +305,10 @@
       "linkedTicketIds": [
         "TCK-5515"
       ],
-      "shippingStatus": {
-        "orderId": "ORD-10556",
-        "shippingStatus": "delivered",
-        "estimatedDeliveryDate": "2026-05-02T00:00:00.000Z",
-        "delayRisk": 0.03,
-        "delayReason": null,
-        "deliveryAttempts": 0,
-        "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.644Z",
-        "source": "shipping_status_api"
-      },
-      "score": 0.463,
+      "shippingStatus": null,
+      "score": 0.548,
       "severity": "medium",
-      "confidence": 0.99,
+      "confidence": 0.98,
       "reasons": [
         "Entrega express con poco margen de error",
         "Cliente ya ha abierto 1 ticket(s)",
@@ -780,20 +330,432 @@
         {
           "type": "shipping_api",
           "label": "shipping_status",
-          "value": "delivered",
-          "weight": 0.02
+          "value": "not_queried",
+          "weight": 0
         },
         {
           "type": "shipping_api",
           "label": "delay_risk",
-          "value": 0.03,
-          "weight": 0.03
+          "value": null,
+          "weight": 0
         },
         {
           "type": "support",
           "label": "linked_tickets",
           "value": 1,
           "weight": 0.78
+        },
+        {
+          "type": "inventory",
+          "label": "inventory_risk",
+          "value": 0.865,
+          "weight": 0.865
+        }
+      ]
+    },
+    {
+      "orderId": "ORD-10466",
+      "customerId": "CUS-2050",
+      "sku": "ZIP-BLK-M",
+      "productName": "Black Zip Hoodie",
+      "status": "payment_review",
+      "shippingMethod": "express",
+      "orderValue": 79.9,
+      "customerSegment": "loyal_customer",
+      "isVip": false,
+      "linkedTicketIds": [],
+      "shippingStatus": null,
+      "score": 0.539,
+      "severity": "medium",
+      "confidence": 0.98,
+      "reasons": [
+        "Pedido bloqueado en payment review",
+        "Entrega express con poco margen de error"
+      ],
+      "evidence": [
+        {
+          "type": "order",
+          "label": "order_status",
+          "value": "payment_review",
+          "weight": 1
+        },
+        {
+          "type": "shipping",
+          "label": "shipping_method",
+          "value": "express",
+          "weight": 0.85
+        },
+        {
+          "type": "shipping_api",
+          "label": "shipping_status",
+          "value": "not_queried",
+          "weight": 0
+        },
+        {
+          "type": "shipping_api",
+          "label": "delay_risk",
+          "value": null,
+          "weight": 0
+        },
+        {
+          "type": "support",
+          "label": "linked_tickets",
+          "value": 0,
+          "weight": 0
+        },
+        {
+          "type": "inventory",
+          "label": "inventory_risk",
+          "value": 0.57,
+          "weight": 0.57
+        }
+      ]
+    },
+    {
+      "orderId": "ORD-10552",
+      "customerId": "CUS-2062",
+      "sku": "TEE-WHT-M",
+      "productName": "White Essential Tee",
+      "status": "payment_review",
+      "shippingMethod": "express",
+      "orderValue": 34.9,
+      "customerSegment": "new_customer",
+      "isVip": false,
+      "linkedTicketIds": [
+        "TCK-5513"
+      ],
+      "shippingStatus": null,
+      "score": 0.535,
+      "severity": "medium",
+      "confidence": 0.98,
+      "reasons": [
+        "Pedido bloqueado en payment review",
+        "Entrega express con poco margen de error",
+        "Cliente ya ha abierto 1 ticket(s)"
+      ],
+      "evidence": [
+        {
+          "type": "order",
+          "label": "order_status",
+          "value": "payment_review",
+          "weight": 1
+        },
+        {
+          "type": "shipping",
+          "label": "shipping_method",
+          "value": "express",
+          "weight": 0.85
+        },
+        {
+          "type": "shipping_api",
+          "label": "shipping_status",
+          "value": "not_queried",
+          "weight": 0
+        },
+        {
+          "type": "shipping_api",
+          "label": "delay_risk",
+          "value": null,
+          "weight": 0
+        },
+        {
+          "type": "support",
+          "label": "linked_tickets",
+          "value": 1,
+          "weight": 0.78
+        },
+        {
+          "type": "inventory",
+          "label": "inventory_risk",
+          "value": 0.231,
+          "weight": 0.231
+        }
+      ]
+    },
+    {
+      "orderId": "ORD-10567",
+      "customerId": "CUS-2004",
+      "sku": "TEE-RED-L",
+      "productName": "Red Logo Tee",
+      "status": "paid",
+      "shippingMethod": "express",
+      "orderValue": 73.8,
+      "customerSegment": "vip_customer",
+      "isVip": true,
+      "linkedTicketIds": [
+        "TCK-5516"
+      ],
+      "shippingStatus": null,
+      "score": 0.531,
+      "severity": "medium",
+      "confidence": 0.98,
+      "reasons": [
+        "Entrega express con poco margen de error",
+        "Cliente ya ha abierto 1 ticket(s)",
+        "Cliente VIP impactado"
+      ],
+      "evidence": [
+        {
+          "type": "order",
+          "label": "order_status",
+          "value": "paid",
+          "weight": 0.28
+        },
+        {
+          "type": "shipping",
+          "label": "shipping_method",
+          "value": "express",
+          "weight": 0.85
+        },
+        {
+          "type": "shipping_api",
+          "label": "shipping_status",
+          "value": "not_queried",
+          "weight": 0
+        },
+        {
+          "type": "shipping_api",
+          "label": "delay_risk",
+          "value": null,
+          "weight": 0
+        },
+        {
+          "type": "support",
+          "label": "linked_tickets",
+          "value": 1,
+          "weight": 1
+        },
+        {
+          "type": "inventory",
+          "label": "inventory_risk",
+          "value": 0.257,
+          "weight": 0.257
+        }
+      ]
+    },
+    {
+      "orderId": "ORD-10505",
+      "customerId": "CUS-2092",
+      "sku": "TEE-WHT-S",
+      "productName": "White Essential Tee",
+      "status": "processing",
+      "shippingMethod": "express",
+      "orderValue": 34.9,
+      "customerSegment": "loyal_customer",
+      "isVip": false,
+      "linkedTicketIds": [],
+      "shippingStatus": null,
+      "score": 0.526,
+      "severity": "medium",
+      "confidence": 0.98,
+      "reasons": [
+        "Entrega express con poco margen de error",
+        "El SKU TEE-WHT-S esta bajo tension operativa"
+      ],
+      "evidence": [
+        {
+          "type": "order",
+          "label": "order_status",
+          "value": "processing",
+          "weight": 0.6
+        },
+        {
+          "type": "shipping",
+          "label": "shipping_method",
+          "value": "express",
+          "weight": 0.85
+        },
+        {
+          "type": "shipping_api",
+          "label": "shipping_status",
+          "value": "not_queried",
+          "weight": 0
+        },
+        {
+          "type": "shipping_api",
+          "label": "delay_risk",
+          "value": null,
+          "weight": 0
+        },
+        {
+          "type": "support",
+          "label": "linked_tickets",
+          "value": 0,
+          "weight": 0
+        },
+        {
+          "type": "inventory",
+          "label": "inventory_risk",
+          "value": 0.743,
+          "weight": 0.743
+        }
+      ]
+    },
+    {
+      "orderId": "ORD-10539",
+      "customerId": "CUS-2112",
+      "sku": "BAG-GRY-OS",
+      "productName": "Grey Shoulder Bag",
+      "status": "payment_review",
+      "shippingMethod": "express",
+      "orderValue": 39.9,
+      "customerSegment": "loyal_customer",
+      "isVip": false,
+      "linkedTicketIds": [],
+      "shippingStatus": null,
+      "score": 0.479,
+      "severity": "medium",
+      "confidence": 0.98,
+      "reasons": [
+        "Pedido bloqueado en payment review",
+        "Entrega express con poco margen de error"
+      ],
+      "evidence": [
+        {
+          "type": "order",
+          "label": "order_status",
+          "value": "payment_review",
+          "weight": 1
+        },
+        {
+          "type": "shipping",
+          "label": "shipping_method",
+          "value": "express",
+          "weight": 0.85
+        },
+        {
+          "type": "shipping_api",
+          "label": "shipping_status",
+          "value": "not_queried",
+          "weight": 0
+        },
+        {
+          "type": "shipping_api",
+          "label": "delay_risk",
+          "value": null,
+          "weight": 0
+        },
+        {
+          "type": "support",
+          "label": "linked_tickets",
+          "value": 0,
+          "weight": 0
+        },
+        {
+          "type": "inventory",
+          "label": "inventory_risk",
+          "value": 0.127,
+          "weight": 0.127
+        }
+      ]
+    },
+    {
+      "orderId": "ORD-10513",
+      "customerId": "CUS-2021",
+      "sku": "HOODIE-BLK-M",
+      "productName": "Black Hoodie",
+      "status": "packed",
+      "shippingMethod": "express",
+      "orderValue": 69.9,
+      "customerSegment": "at_risk_customer",
+      "isVip": false,
+      "linkedTicketIds": [],
+      "shippingStatus": null,
+      "score": 0.476,
+      "severity": "medium",
+      "confidence": 0.98,
+      "reasons": [
+        "Entrega express con poco margen de error",
+        "El SKU HOODIE-BLK-M esta bajo tension operativa"
+      ],
+      "evidence": [
+        {
+          "type": "order",
+          "label": "order_status",
+          "value": "packed",
+          "weight": 0.12
+        },
+        {
+          "type": "shipping",
+          "label": "shipping_method",
+          "value": "express",
+          "weight": 0.85
+        },
+        {
+          "type": "shipping_api",
+          "label": "shipping_status",
+          "value": "not_queried",
+          "weight": 0
+        },
+        {
+          "type": "shipping_api",
+          "label": "delay_risk",
+          "value": null,
+          "weight": 0
+        },
+        {
+          "type": "support",
+          "label": "linked_tickets",
+          "value": 0,
+          "weight": 0
+        },
+        {
+          "type": "inventory",
+          "label": "inventory_risk",
+          "value": 0.865,
+          "weight": 0.865
+        }
+      ]
+    },
+    {
+      "orderId": "ORD-10527",
+      "customerId": "CUS-2119",
+      "sku": "HOODIE-BLK-M",
+      "productName": "Black Hoodie",
+      "status": "processing",
+      "shippingMethod": "express",
+      "orderValue": 69.9,
+      "customerSegment": "repeat_customer",
+      "isVip": false,
+      "linkedTicketIds": [],
+      "shippingStatus": null,
+      "score": 0.474,
+      "severity": "medium",
+      "confidence": 0.98,
+      "reasons": [
+        "Entrega express con poco margen de error",
+        "El SKU HOODIE-BLK-M esta bajo tension operativa"
+      ],
+      "evidence": [
+        {
+          "type": "order",
+          "label": "order_status",
+          "value": "processing",
+          "weight": 0.6
+        },
+        {
+          "type": "shipping",
+          "label": "shipping_method",
+          "value": "express",
+          "weight": 0.85
+        },
+        {
+          "type": "shipping_api",
+          "label": "shipping_status",
+          "value": "not_queried",
+          "weight": 0
+        },
+        {
+          "type": "shipping_api",
+          "label": "delay_risk",
+          "value": null,
+          "weight": 0
+        },
+        {
+          "type": "support",
+          "label": "linked_tickets",
+          "value": 0,
+          "weight": 0
         },
         {
           "type": "inventory",
@@ -862,6 +824,64 @@
       ]
     },
     {
+      "orderId": "ORD-10420",
+      "customerId": "CUS-2022",
+      "sku": "SWEAT-GRY-M",
+      "productName": "Grey Sweatpants",
+      "status": "payment_review",
+      "shippingMethod": "express",
+      "orderValue": 64.9,
+      "customerSegment": "loyal_customer",
+      "isVip": false,
+      "linkedTicketIds": [],
+      "shippingStatus": null,
+      "score": 0.455,
+      "severity": "medium",
+      "confidence": 0.98,
+      "reasons": [
+        "Pedido bloqueado en payment review",
+        "Entrega express con poco margen de error"
+      ],
+      "evidence": [
+        {
+          "type": "order",
+          "label": "order_status",
+          "value": "payment_review",
+          "weight": 1
+        },
+        {
+          "type": "shipping",
+          "label": "shipping_method",
+          "value": "express",
+          "weight": 0.85
+        },
+        {
+          "type": "shipping_api",
+          "label": "shipping_status",
+          "value": "not_queried",
+          "weight": 0
+        },
+        {
+          "type": "shipping_api",
+          "label": "delay_risk",
+          "value": null,
+          "weight": 0
+        },
+        {
+          "type": "support",
+          "label": "linked_tickets",
+          "value": 0,
+          "weight": 0
+        },
+        {
+          "type": "inventory",
+          "label": "inventory_risk",
+          "value": 0.021,
+          "weight": 0.021
+        }
+      ]
+    },
+    {
       "orderId": "ORD-10521",
       "customerId": "CUS-2021",
       "sku": "HOODIE-BLK-M",
@@ -919,41 +939,32 @@
       ]
     },
     {
-      "orderId": "ORD-10527",
-      "customerId": "CUS-2119",
-      "sku": "HOODIE-BLK-M",
-      "productName": "Black Hoodie",
-      "status": "processing",
+      "orderId": "ORD-10515",
+      "customerId": "CUS-2068",
+      "sku": "JORTS-BLU-M",
+      "productName": "Blue Denim Jorts",
+      "status": "paid",
       "shippingMethod": "express",
-      "orderValue": 69.9,
-      "customerSegment": "repeat_customer",
+      "orderValue": 59.9,
+      "customerSegment": "new_customer",
       "isVip": false,
-      "linkedTicketIds": [],
-      "shippingStatus": {
-        "orderId": "ORD-10527",
-        "shippingStatus": "out_for_delivery",
-        "estimatedDeliveryDate": "2026-05-07T00:00:00.000Z",
-        "delayRisk": 0.075,
-        "delayReason": null,
-        "deliveryAttempts": 1,
-        "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.644Z",
-        "source": "shipping_status_api"
-      },
-      "score": 0.425,
+      "linkedTicketIds": [
+        "TCK-5509"
+      ],
+      "shippingStatus": null,
+      "score": 0.437,
       "severity": "medium",
-      "confidence": 0.99,
+      "confidence": 0.98,
       "reasons": [
-        "Ya hubo 1 intento(s) de entrega",
         "Entrega express con poco margen de error",
-        "El SKU HOODIE-BLK-M esta bajo tension operativa"
+        "Cliente ya ha abierto 1 ticket(s)"
       ],
       "evidence": [
         {
           "type": "order",
           "label": "order_status",
-          "value": "processing",
-          "weight": 0.6
+          "value": "paid",
+          "weight": 0.28
         },
         {
           "type": "shipping",
@@ -964,14 +975,72 @@
         {
           "type": "shipping_api",
           "label": "shipping_status",
-          "value": "out_for_delivery",
-          "weight": 0.08
+          "value": "not_queried",
+          "weight": 0
         },
         {
           "type": "shipping_api",
           "label": "delay_risk",
-          "value": 0.075,
-          "weight": 0.195
+          "value": null,
+          "weight": 0
+        },
+        {
+          "type": "support",
+          "label": "linked_tickets",
+          "value": 1,
+          "weight": 0.78
+        },
+        {
+          "type": "inventory",
+          "label": "inventory_risk",
+          "value": 0.379,
+          "weight": 0.379
+        }
+      ]
+    },
+    {
+      "orderId": "ORD-10433",
+      "customerId": "CUS-2047",
+      "sku": "CAP-BLK-OS",
+      "productName": "Black Cap",
+      "status": "payment_review",
+      "shippingMethod": "express",
+      "orderValue": 29.9,
+      "customerSegment": "new_customer",
+      "isVip": false,
+      "linkedTicketIds": [],
+      "shippingStatus": null,
+      "score": 0.433,
+      "severity": "medium",
+      "confidence": 0.98,
+      "reasons": [
+        "Pedido bloqueado en payment review",
+        "Entrega express con poco margen de error"
+      ],
+      "evidence": [
+        {
+          "type": "order",
+          "label": "order_status",
+          "value": "payment_review",
+          "weight": 1
+        },
+        {
+          "type": "shipping",
+          "label": "shipping_method",
+          "value": "express",
+          "weight": 0.85
+        },
+        {
+          "type": "shipping_api",
+          "label": "shipping_status",
+          "value": "not_queried",
+          "weight": 0
+        },
+        {
+          "type": "shipping_api",
+          "label": "delay_risk",
+          "value": null,
+          "weight": 0
         },
         {
           "type": "support",
@@ -982,8 +1051,8 @@
         {
           "type": "inventory",
           "label": "inventory_risk",
-          "value": 0.865,
-          "weight": 0.865
+          "value": 0.299,
+          "weight": 0.299
         }
       ]
     },
@@ -1099,6 +1168,63 @@
           "label": "inventory_risk",
           "value": 0.743,
           "weight": 0.743
+        }
+      ]
+    },
+    {
+      "orderId": "ORD-10499",
+      "customerId": "CUS-2022",
+      "sku": "TEE-WHT-M",
+      "productName": "White Essential Tee",
+      "status": "processing",
+      "shippingMethod": "express",
+      "orderValue": 34.9,
+      "customerSegment": "loyal_customer",
+      "isVip": false,
+      "linkedTicketIds": [],
+      "shippingStatus": null,
+      "score": 0.419,
+      "severity": "info",
+      "confidence": 0.98,
+      "reasons": [
+        "Entrega express con poco margen de error"
+      ],
+      "evidence": [
+        {
+          "type": "order",
+          "label": "order_status",
+          "value": "processing",
+          "weight": 0.6
+        },
+        {
+          "type": "shipping",
+          "label": "shipping_method",
+          "value": "express",
+          "weight": 0.85
+        },
+        {
+          "type": "shipping_api",
+          "label": "shipping_status",
+          "value": "not_queried",
+          "weight": 0
+        },
+        {
+          "type": "shipping_api",
+          "label": "delay_risk",
+          "value": null,
+          "weight": 0
+        },
+        {
+          "type": "support",
+          "label": "linked_tickets",
+          "value": 0,
+          "weight": 0
+        },
+        {
+          "type": "inventory",
+          "label": "inventory_risk",
+          "value": 0.231,
+          "weight": 0.231
         }
       ]
     },
@@ -1220,6 +1346,63 @@
       ]
     },
     {
+      "orderId": "ORD-10566",
+      "customerId": "CUS-2015",
+      "sku": "BAG-GRY-OS",
+      "productName": "Grey Shoulder Bag",
+      "status": "processing",
+      "shippingMethod": "express",
+      "orderValue": 39.9,
+      "customerSegment": "loyal_customer",
+      "isVip": false,
+      "linkedTicketIds": [],
+      "shippingStatus": null,
+      "score": 0.407,
+      "severity": "info",
+      "confidence": 0.98,
+      "reasons": [
+        "Entrega express con poco margen de error"
+      ],
+      "evidence": [
+        {
+          "type": "order",
+          "label": "order_status",
+          "value": "processing",
+          "weight": 0.6
+        },
+        {
+          "type": "shipping",
+          "label": "shipping_method",
+          "value": "express",
+          "weight": 0.85
+        },
+        {
+          "type": "shipping_api",
+          "label": "shipping_status",
+          "value": "not_queried",
+          "weight": 0
+        },
+        {
+          "type": "shipping_api",
+          "label": "delay_risk",
+          "value": null,
+          "weight": 0
+        },
+        {
+          "type": "support",
+          "label": "linked_tickets",
+          "value": 0,
+          "weight": 0
+        },
+        {
+          "type": "inventory",
+          "label": "inventory_risk",
+          "value": 0.127,
+          "weight": 0.127
+        }
+      ]
+    },
+    {
       "orderId": "ORD-10442",
       "customerId": "CUS-2042",
       "sku": "TEE-WHT-S",
@@ -1335,74 +1518,6 @@
       ]
     },
     {
-      "orderId": "ORD-10539",
-      "customerId": "CUS-2112",
-      "sku": "BAG-GRY-OS",
-      "productName": "Grey Shoulder Bag",
-      "status": "payment_review",
-      "shippingMethod": "express",
-      "orderValue": 39.9,
-      "customerSegment": "loyal_customer",
-      "isVip": false,
-      "linkedTicketIds": [],
-      "shippingStatus": {
-        "orderId": "ORD-10539",
-        "shippingStatus": "delivered",
-        "estimatedDeliveryDate": "2026-05-07T00:00:00.000Z",
-        "delayRisk": 0.011,
-        "delayReason": null,
-        "deliveryAttempts": 0,
-        "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.571Z",
-        "source": "shipping_status_api"
-      },
-      "score": 0.391,
-      "severity": "info",
-      "confidence": 0.99,
-      "reasons": [
-        "Pedido bloqueado en payment review",
-        "Entrega express con poco margen de error"
-      ],
-      "evidence": [
-        {
-          "type": "order",
-          "label": "order_status",
-          "value": "payment_review",
-          "weight": 1
-        },
-        {
-          "type": "shipping",
-          "label": "shipping_method",
-          "value": "express",
-          "weight": 0.85
-        },
-        {
-          "type": "shipping_api",
-          "label": "shipping_status",
-          "value": "delivered",
-          "weight": 0.02
-        },
-        {
-          "type": "shipping_api",
-          "label": "delay_risk",
-          "value": 0.011,
-          "weight": 0.011
-        },
-        {
-          "type": "support",
-          "label": "linked_tickets",
-          "value": 0,
-          "weight": 0
-        },
-        {
-          "type": "inventory",
-          "label": "inventory_risk",
-          "value": 0.127,
-          "weight": 0.127
-        }
-      ]
-    },
-    {
       "orderId": "ORD-10480",
       "customerId": "CUS-2047",
       "sku": "TEE-WHT-S",
@@ -1457,6 +1572,66 @@
           "label": "inventory_risk",
           "value": 0.743,
           "weight": 0.743
+        }
+      ]
+    },
+    {
+      "orderId": "ORD-10578",
+      "customerId": "CUS-2095",
+      "sku": "SWEAT-GRY-L",
+      "productName": "Grey Sweatpants",
+      "status": "paid",
+      "shippingMethod": "express",
+      "orderValue": 129.8,
+      "customerSegment": "new_customer",
+      "isVip": false,
+      "linkedTicketIds": [
+        "TCK-5518"
+      ],
+      "shippingStatus": null,
+      "score": 0.388,
+      "severity": "info",
+      "confidence": 0.98,
+      "reasons": [
+        "Entrega express con poco margen de error",
+        "Cliente ya ha abierto 1 ticket(s)"
+      ],
+      "evidence": [
+        {
+          "type": "order",
+          "label": "order_status",
+          "value": "paid",
+          "weight": 0.28
+        },
+        {
+          "type": "shipping",
+          "label": "shipping_method",
+          "value": "express",
+          "weight": 0.85
+        },
+        {
+          "type": "shipping_api",
+          "label": "shipping_status",
+          "value": "not_queried",
+          "weight": 0
+        },
+        {
+          "type": "shipping_api",
+          "label": "delay_risk",
+          "value": null,
+          "weight": 0
+        },
+        {
+          "type": "support",
+          "label": "linked_tickets",
+          "value": 1,
+          "weight": 1
+        },
+        {
+          "type": "inventory",
+          "label": "inventory_risk",
+          "value": 0,
+          "weight": 0
         }
       ]
     },
@@ -1632,73 +1807,6 @@
       ]
     },
     {
-      "orderId": "ORD-10499",
-      "customerId": "CUS-2022",
-      "sku": "TEE-WHT-M",
-      "productName": "White Essential Tee",
-      "status": "processing",
-      "shippingMethod": "express",
-      "orderValue": 34.9,
-      "customerSegment": "loyal_customer",
-      "isVip": false,
-      "linkedTicketIds": [],
-      "shippingStatus": {
-        "orderId": "ORD-10499",
-        "shippingStatus": "in_transit",
-        "estimatedDeliveryDate": "2026-05-02T00:00:00.000Z",
-        "delayRisk": 0.003,
-        "delayReason": null,
-        "deliveryAttempts": 0,
-        "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.597Z",
-        "source": "shipping_status_api"
-      },
-      "score": 0.38,
-      "severity": "info",
-      "confidence": 0.99,
-      "reasons": [
-        "Entrega express con poco margen de error"
-      ],
-      "evidence": [
-        {
-          "type": "order",
-          "label": "order_status",
-          "value": "processing",
-          "weight": 0.6
-        },
-        {
-          "type": "shipping",
-          "label": "shipping_method",
-          "value": "express",
-          "weight": 0.85
-        },
-        {
-          "type": "shipping_api",
-          "label": "shipping_status",
-          "value": "in_transit",
-          "weight": 0.24
-        },
-        {
-          "type": "shipping_api",
-          "label": "delay_risk",
-          "value": 0.003,
-          "weight": 0.003
-        },
-        {
-          "type": "support",
-          "label": "linked_tickets",
-          "value": 0,
-          "weight": 0
-        },
-        {
-          "type": "inventory",
-          "label": "inventory_risk",
-          "value": 0.231,
-          "weight": 0.231
-        }
-      ]
-    },
-    {
       "orderId": "ORD-10424",
       "customerId": "CUS-2115",
       "sku": "TEE-WHT-S",
@@ -1810,74 +1918,6 @@
           "label": "inventory_risk",
           "value": 0.274,
           "weight": 0.274
-        }
-      ]
-    },
-    {
-      "orderId": "ORD-10420",
-      "customerId": "CUS-2022",
-      "sku": "SWEAT-GRY-M",
-      "productName": "Grey Sweatpants",
-      "status": "payment_review",
-      "shippingMethod": "express",
-      "orderValue": 64.9,
-      "customerSegment": "loyal_customer",
-      "isVip": false,
-      "linkedTicketIds": [],
-      "shippingStatus": {
-        "orderId": "ORD-10420",
-        "shippingStatus": "delivered",
-        "estimatedDeliveryDate": "2026-05-07T00:00:00.000Z",
-        "delayRisk": 0.029,
-        "delayReason": null,
-        "deliveryAttempts": 0,
-        "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.644Z",
-        "source": "shipping_status_api"
-      },
-      "score": 0.369,
-      "severity": "info",
-      "confidence": 0.99,
-      "reasons": [
-        "Pedido bloqueado en payment review",
-        "Entrega express con poco margen de error"
-      ],
-      "evidence": [
-        {
-          "type": "order",
-          "label": "order_status",
-          "value": "payment_review",
-          "weight": 1
-        },
-        {
-          "type": "shipping",
-          "label": "shipping_method",
-          "value": "express",
-          "weight": 0.85
-        },
-        {
-          "type": "shipping_api",
-          "label": "shipping_status",
-          "value": "delivered",
-          "weight": 0.02
-        },
-        {
-          "type": "shipping_api",
-          "label": "delay_risk",
-          "value": 0.029,
-          "weight": 0.029
-        },
-        {
-          "type": "support",
-          "label": "linked_tickets",
-          "value": 0,
-          "weight": 0
-        },
-        {
-          "type": "inventory",
-          "label": "inventory_risk",
-          "value": 0.021,
-          "weight": 0.021
         }
       ]
     },
@@ -2167,76 +2207,6 @@
       ]
     },
     {
-      "orderId": "ORD-10515",
-      "customerId": "CUS-2068",
-      "sku": "JORTS-BLU-M",
-      "productName": "Blue Denim Jorts",
-      "status": "paid",
-      "shippingMethod": "express",
-      "orderValue": 59.9,
-      "customerSegment": "new_customer",
-      "isVip": false,
-      "linkedTicketIds": [
-        "TCK-5509"
-      ],
-      "shippingStatus": {
-        "orderId": "ORD-10515",
-        "shippingStatus": "delivered",
-        "estimatedDeliveryDate": "2026-05-06T00:00:00.000Z",
-        "delayRisk": 0.023,
-        "delayReason": null,
-        "deliveryAttempts": 0,
-        "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.669Z",
-        "source": "shipping_status_api"
-      },
-      "score": 0.35,
-      "severity": "info",
-      "confidence": 0.99,
-      "reasons": [
-        "Entrega express con poco margen de error",
-        "Cliente ya ha abierto 1 ticket(s)"
-      ],
-      "evidence": [
-        {
-          "type": "order",
-          "label": "order_status",
-          "value": "paid",
-          "weight": 0.28
-        },
-        {
-          "type": "shipping",
-          "label": "shipping_method",
-          "value": "express",
-          "weight": 0.85
-        },
-        {
-          "type": "shipping_api",
-          "label": "shipping_status",
-          "value": "delivered",
-          "weight": 0.02
-        },
-        {
-          "type": "shipping_api",
-          "label": "delay_risk",
-          "value": 0.023,
-          "weight": 0.023
-        },
-        {
-          "type": "support",
-          "label": "linked_tickets",
-          "value": 1,
-          "weight": 0.78
-        },
-        {
-          "type": "inventory",
-          "label": "inventory_risk",
-          "value": 0.379,
-          "weight": 0.379
-        }
-      ]
-    },
-    {
       "orderId": "ORD-10568",
       "customerId": "CUS-2083",
       "sku": "ZIP-BLK-M",
@@ -2349,76 +2319,6 @@
           "label": "inventory_risk",
           "value": 0.127,
           "weight": 0.127
-        }
-      ]
-    },
-    {
-      "orderId": "ORD-10578",
-      "customerId": "CUS-2095",
-      "sku": "SWEAT-GRY-L",
-      "productName": "Grey Sweatpants",
-      "status": "paid",
-      "shippingMethod": "express",
-      "orderValue": 129.8,
-      "customerSegment": "new_customer",
-      "isVip": false,
-      "linkedTicketIds": [
-        "TCK-5518"
-      ],
-      "shippingStatus": {
-        "orderId": "ORD-10578",
-        "shippingStatus": "in_transit",
-        "estimatedDeliveryDate": "2026-05-08T00:00:00.000Z",
-        "delayRisk": 0.103,
-        "delayReason": null,
-        "deliveryAttempts": 0,
-        "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.576Z",
-        "source": "shipping_status_api"
-      },
-      "score": 0.348,
-      "severity": "info",
-      "confidence": 0.99,
-      "reasons": [
-        "Entrega express con poco margen de error",
-        "Cliente ya ha abierto 1 ticket(s)"
-      ],
-      "evidence": [
-        {
-          "type": "order",
-          "label": "order_status",
-          "value": "paid",
-          "weight": 0.28
-        },
-        {
-          "type": "shipping",
-          "label": "shipping_method",
-          "value": "express",
-          "weight": 0.85
-        },
-        {
-          "type": "shipping_api",
-          "label": "shipping_status",
-          "value": "in_transit",
-          "weight": 0.24
-        },
-        {
-          "type": "shipping_api",
-          "label": "delay_risk",
-          "value": 0.103,
-          "weight": 0.103
-        },
-        {
-          "type": "support",
-          "label": "linked_tickets",
-          "value": 1,
-          "weight": 1
-        },
-        {
-          "type": "inventory",
-          "label": "inventory_risk",
-          "value": 0,
-          "weight": 0
         }
       ]
     },
@@ -2995,73 +2895,6 @@
           "label": "inventory_risk",
           "value": 0.865,
           "weight": 0.865
-        }
-      ]
-    },
-    {
-      "orderId": "ORD-10566",
-      "customerId": "CUS-2015",
-      "sku": "BAG-GRY-OS",
-      "productName": "Grey Shoulder Bag",
-      "status": "processing",
-      "shippingMethod": "express",
-      "orderValue": 39.9,
-      "customerSegment": "loyal_customer",
-      "isVip": false,
-      "linkedTicketIds": [],
-      "shippingStatus": {
-        "orderId": "ORD-10566",
-        "shippingStatus": "delivered",
-        "estimatedDeliveryDate": "2026-05-07T00:00:00.000Z",
-        "delayRisk": 0.015,
-        "delayReason": null,
-        "deliveryAttempts": 0,
-        "requiresManualReview": false,
-        "fetchedAt": "2026-04-28T18:22:08.763Z",
-        "source": "shipping_status_api"
-      },
-      "score": 0.319,
-      "severity": "info",
-      "confidence": 0.99,
-      "reasons": [
-        "Entrega express con poco margen de error"
-      ],
-      "evidence": [
-        {
-          "type": "order",
-          "label": "order_status",
-          "value": "processing",
-          "weight": 0.6
-        },
-        {
-          "type": "shipping",
-          "label": "shipping_method",
-          "value": "express",
-          "weight": 0.85
-        },
-        {
-          "type": "shipping_api",
-          "label": "shipping_status",
-          "value": "delivered",
-          "weight": 0.02
-        },
-        {
-          "type": "shipping_api",
-          "label": "delay_risk",
-          "value": 0.015,
-          "weight": 0.015
-        },
-        {
-          "type": "support",
-          "label": "linked_tickets",
-          "value": 0,
-          "weight": 0
-        },
-        {
-          "type": "inventory",
-          "label": "inventory_risk",
-          "value": 0.127,
-          "weight": 0.127
         }
       ]
     },
@@ -11564,7 +11397,7 @@
       "sentiment": "negative",
       "channel": "instagram_dm",
       "message": "Es un regalo y necesito confirmación de entrega.",
-      "score": 0.868,
+      "score": 0.876,
       "severity": "critical",
       "confidence": 0.92,
       "reasons": [
@@ -11589,50 +11422,8 @@
         {
           "type": "order",
           "label": "order_risk",
-          "value": 0.492,
-          "weight": 0.492
-        },
-        {
-          "type": "shipping",
-          "label": "shipping_method",
-          "value": "express",
-          "weight": 0.9
-        }
-      ]
-    },
-    {
-      "ticketId": "TCK-5510",
-      "orderId": "ORD-10517",
-      "customerId": "CUS-2049",
-      "urgency": "urgent",
-      "sentiment": "neutral",
-      "channel": "instagram_dm",
-      "message": "Me preocupa que se agote y no recibirme el pedido.",
-      "score": 0.798,
-      "severity": "high",
-      "confidence": 0.92,
-      "reasons": [
-        "Ticket urgent abierto en soporte",
-        "Relacionado con un pedido express"
-      ],
-      "evidence": [
-        {
-          "type": "support",
-          "label": "urgency",
-          "value": "urgent",
-          "weight": 1
-        },
-        {
-          "type": "support",
-          "label": "sentiment",
-          "value": "neutral",
-          "weight": 0.45
-        },
-        {
-          "type": "order",
-          "label": "order_risk",
-          "value": 0.6,
-          "weight": 0.6
+          "value": 0.531,
+          "weight": 0.531
         },
         {
           "type": "shipping",
@@ -11650,7 +11441,7 @@
       "sentiment": "negative",
       "channel": "instagram_dm",
       "message": "Me preocupa que se agote y no recibirme el pedido.",
-      "score": 0.789,
+      "score": 0.805,
       "severity": "high",
       "confidence": 0.92,
       "reasons": [
@@ -11675,8 +11466,50 @@
         {
           "type": "order",
           "label": "order_risk",
-          "value": 0.491,
-          "weight": 0.491
+          "value": 0.572,
+          "weight": 0.572
+        },
+        {
+          "type": "shipping",
+          "label": "shipping_method",
+          "value": "express",
+          "weight": 0.9
+        }
+      ]
+    },
+    {
+      "ticketId": "TCK-5510",
+      "orderId": "ORD-10517",
+      "customerId": "CUS-2049",
+      "urgency": "urgent",
+      "sentiment": "neutral",
+      "channel": "instagram_dm",
+      "message": "Me preocupa que se agote y no recibirme el pedido.",
+      "score": 0.805,
+      "severity": "high",
+      "confidence": 0.92,
+      "reasons": [
+        "Ticket urgent abierto en soporte",
+        "Relacionado con un pedido express"
+      ],
+      "evidence": [
+        {
+          "type": "support",
+          "label": "urgency",
+          "value": "urgent",
+          "weight": 1
+        },
+        {
+          "type": "support",
+          "label": "sentiment",
+          "value": "neutral",
+          "weight": 0.45
+        },
+        {
+          "type": "order",
+          "label": "order_risk",
+          "value": 0.636,
+          "weight": 0.636
         },
         {
           "type": "shipping",
@@ -11694,7 +11527,7 @@
       "sentiment": "neutral",
       "channel": "email",
       "message": "No veo movimiento en el envío desde hace horas.",
-      "score": 0.715,
+      "score": 0.718,
       "severity": "high",
       "confidence": 0.92,
       "reasons": [
@@ -11717,8 +11550,8 @@
         {
           "type": "order",
           "label": "order_risk",
-          "value": 0.583,
-          "weight": 0.583
+          "value": 0.601,
+          "weight": 0.601
         },
         {
           "type": "shipping",
@@ -11778,7 +11611,7 @@
       "sentiment": "negative",
       "channel": "email",
       "message": "Quiero cambiar la dirección antes de que salga.",
-      "score": 0.668,
+      "score": 0.675,
       "severity": "medium",
       "confidence": 0.92,
       "reasons": [
@@ -11802,8 +11635,8 @@
         {
           "type": "order",
           "label": "order_risk",
-          "value": 0.501,
-          "weight": 0.501
+          "value": 0.535,
+          "weight": 0.535
         },
         {
           "type": "shipping",
@@ -11821,7 +11654,7 @@
       "sentiment": "neutral",
       "channel": "chat",
       "message": "No veo movimiento en el envío desde hace horas.",
-      "score": 0.619,
+      "score": 0.627,
       "severity": "medium",
       "confidence": 0.92,
       "reasons": [
@@ -11844,8 +11677,8 @@
         {
           "type": "order",
           "label": "order_risk",
-          "value": 0.348,
-          "weight": 0.348
+          "value": 0.388,
+          "weight": 0.388
         },
         {
           "type": "shipping",
@@ -11863,7 +11696,7 @@
       "sentiment": "neutral",
       "channel": "chat",
       "message": "Necesito saber si mi pedido llegará antes del viernes.",
-      "score": 0.587,
+      "score": 0.604,
       "severity": "medium",
       "confidence": 0.92,
       "reasons": [
@@ -11886,8 +11719,8 @@
         {
           "type": "order",
           "label": "order_risk",
-          "value": 0.463,
-          "weight": 0.463
+          "value": 0.548,
+          "weight": 0.548
         },
         {
           "type": "shipping",
@@ -11905,7 +11738,7 @@
       "sentiment": "neutral",
       "channel": "instagram_dm",
       "message": "Es un regalo y necesito confirmación de entrega.",
-      "score": 0.566,
+      "score": 0.583,
       "severity": "medium",
       "confidence": 0.92,
       "reasons": [
@@ -11928,8 +11761,8 @@
         {
           "type": "order",
           "label": "order_risk",
-          "value": 0.35,
-          "weight": 0.35
+          "value": 0.437,
+          "weight": 0.437
         },
         {
           "type": "shipping",
@@ -12574,10 +12407,10 @@
         "CMP-778",
         "HOODIE-BLK-M"
       ],
-      "id": "1a5302c0f71dd5a7",
-      "snapshotId": "776d56b15b90d55c",
+      "id": "1a23ada4cecaf199",
+      "snapshotId": "625f5258e8164896",
       "rank": 1,
-      "createdAt": "2026-04-28T18:22:08.766Z",
+      "createdAt": "2026-04-28T18:20:25.220Z",
       "status": "new"
     },
     {
@@ -12591,7 +12424,7 @@
       "confidence": 0.92,
       "owner": "support",
       "automationPossible": false,
-      "score": 0.868,
+      "score": 0.876,
       "evidence": [
         {
           "type": "support",
@@ -12608,8 +12441,8 @@
         {
           "type": "order",
           "label": "order_risk",
-          "value": 0.492,
-          "weight": 0.492
+          "value": 0.531,
+          "weight": 0.531
         },
         {
           "type": "shipping",
@@ -12623,10 +12456,10 @@
         "ORD-10567",
         "CUS-2004"
       ],
-      "id": "2ef97545eb591bf4",
-      "snapshotId": "776d56b15b90d55c",
+      "id": "509eaaebc45fc03c",
+      "snapshotId": "625f5258e8164896",
       "rank": 2,
-      "createdAt": "2026-04-28T18:22:08.766Z",
+      "createdAt": "2026-04-28T18:20:25.220Z",
       "status": "new"
     },
     {
@@ -12671,114 +12504,10 @@
         "HOODIE-BLK-M",
         "CMP-778"
       ],
-      "id": "07468d87605cadfc",
-      "snapshotId": "776d56b15b90d55c",
+      "id": "94e2e01210ce0d25",
+      "snapshotId": "625f5258e8164896",
       "rank": 3,
-      "createdAt": "2026-04-28T18:22:08.766Z",
-      "status": "new"
-    },
-    {
-      "actionType": "manual_review",
-      "severity": "critical",
-      "targetType": "order",
-      "targetId": "ORD-10433",
-      "title": "Resolver bloqueo logistico ORD-10433",
-      "reason": "La Shipping Status API confirma un retraso en curso. La Shipping Status API cambia la prioridad de este pedido.",
-      "expectedImpact": "Resolver incidencias logisticas reales antes de incumplir entrega o perder el pedido.",
-      "confidence": 0.99,
-      "owner": "operations",
-      "automationPossible": false,
-      "score": 0.86,
-      "evidence": [
-        {
-          "type": "order",
-          "label": "order_status",
-          "value": "payment_review",
-          "weight": 1
-        },
-        {
-          "type": "shipping",
-          "label": "shipping_method",
-          "value": "express",
-          "weight": 0.85
-        },
-        {
-          "type": "shipping_api",
-          "label": "shipping_status",
-          "value": "delayed",
-          "weight": 0.88
-        },
-        {
-          "type": "shipping_api",
-          "label": "delay_risk",
-          "value": 0.685,
-          "weight": 0.805
-        },
-        {
-          "type": "support",
-          "label": "linked_tickets",
-          "value": 0,
-          "weight": 0
-        }
-      ],
-      "relatedEntityIds": [
-        "ORD-10433",
-        "CUS-2047",
-        "CAP-BLK-OS"
-      ],
-      "id": "4f240cd0d69b18c5",
-      "snapshotId": "776d56b15b90d55c",
-      "rank": 4,
-      "createdAt": "2026-04-28T18:22:08.766Z",
-      "status": "new"
-    },
-    {
-      "actionType": "escalate_ticket",
-      "severity": "high",
-      "targetType": "ticket",
-      "targetId": "TCK-5510",
-      "title": "Escalar ticket TCK-5510",
-      "reason": "Ticket urgent abierto en soporte. Esta ligado al pedido ORD-10517.",
-      "expectedImpact": "Reducir friccion de soporte, contener mala experiencia y evitar escalado publico del problema.",
-      "confidence": 0.92,
-      "owner": "support",
-      "automationPossible": false,
-      "score": 0.798,
-      "evidence": [
-        {
-          "type": "support",
-          "label": "urgency",
-          "value": "urgent",
-          "weight": 1
-        },
-        {
-          "type": "support",
-          "label": "sentiment",
-          "value": "neutral",
-          "weight": 0.45
-        },
-        {
-          "type": "order",
-          "label": "order_risk",
-          "value": 0.6,
-          "weight": 0.6
-        },
-        {
-          "type": "shipping",
-          "label": "shipping_method",
-          "value": "express",
-          "weight": 0.9
-        }
-      ],
-      "relatedEntityIds": [
-        "TCK-5510",
-        "ORD-10517",
-        "CUS-2049"
-      ],
-      "id": "7912fc5ed96b133e",
-      "snapshotId": "776d56b15b90d55c",
-      "rank": 5,
-      "createdAt": "2026-04-28T18:22:08.766Z",
+      "createdAt": "2026-04-28T18:20:25.220Z",
       "status": "new"
     },
     {
@@ -12792,7 +12521,7 @@
       "confidence": 0.92,
       "owner": "support",
       "automationPossible": false,
-      "score": 0.789,
+      "score": 0.805,
       "evidence": [
         {
           "type": "support",
@@ -12809,8 +12538,8 @@
         {
           "type": "order",
           "label": "order_risk",
-          "value": 0.491,
-          "weight": 0.491
+          "value": 0.572,
+          "weight": 0.572
         },
         {
           "type": "shipping",
@@ -12824,10 +12553,59 @@
         "ORD-10460",
         "CUS-2033"
       ],
-      "id": "4a1a2c23975424d8",
-      "snapshotId": "776d56b15b90d55c",
-      "rank": 6,
-      "createdAt": "2026-04-28T18:22:08.766Z",
+      "id": "92f730f831c3ae6b",
+      "snapshotId": "625f5258e8164896",
+      "rank": 4,
+      "createdAt": "2026-04-28T18:20:25.220Z",
+      "status": "new"
+    },
+    {
+      "actionType": "escalate_ticket",
+      "severity": "high",
+      "targetType": "ticket",
+      "targetId": "TCK-5510",
+      "title": "Escalar ticket TCK-5510",
+      "reason": "Ticket urgent abierto en soporte. Esta ligado al pedido ORD-10517.",
+      "expectedImpact": "Reducir friccion de soporte, contener mala experiencia y evitar escalado publico del problema.",
+      "confidence": 0.92,
+      "owner": "support",
+      "automationPossible": false,
+      "score": 0.805,
+      "evidence": [
+        {
+          "type": "support",
+          "label": "urgency",
+          "value": "urgent",
+          "weight": 1
+        },
+        {
+          "type": "support",
+          "label": "sentiment",
+          "value": "neutral",
+          "weight": 0.45
+        },
+        {
+          "type": "order",
+          "label": "order_risk",
+          "value": 0.636,
+          "weight": 0.636
+        },
+        {
+          "type": "shipping",
+          "label": "shipping_method",
+          "value": "express",
+          "weight": 0.9
+        }
+      ],
+      "relatedEntityIds": [
+        "TCK-5510",
+        "ORD-10517",
+        "CUS-2049"
+      ],
+      "id": "32be4c9d316da6d9",
+      "snapshotId": "625f5258e8164896",
+      "rank": 5,
+      "createdAt": "2026-04-28T18:20:25.220Z",
       "status": "new"
     },
     {
@@ -12872,10 +12650,10 @@
         "CMP-779",
         "TEE-WHT-S"
       ],
-      "id": "cbc1f5f404dcc822",
-      "snapshotId": "776d56b15b90d55c",
-      "rank": 7,
-      "createdAt": "2026-04-28T18:22:08.766Z",
+      "id": "60b4dde7cd00f6b6",
+      "snapshotId": "625f5258e8164896",
+      "rank": 6,
+      "createdAt": "2026-04-28T18:20:25.220Z",
       "status": "new"
     },
     {
@@ -12920,10 +12698,10 @@
         "TEE-WHT-S",
         "CMP-779"
       ],
-      "id": "2769e2697ca539c8",
-      "snapshotId": "776d56b15b90d55c",
-      "rank": 8,
-      "createdAt": "2026-04-28T18:22:08.766Z",
+      "id": "6ca7c4c56535ddef",
+      "snapshotId": "625f5258e8164896",
+      "rank": 7,
+      "createdAt": "2026-04-28T18:20:25.220Z",
       "status": "new"
     },
     {
@@ -12937,7 +12715,7 @@
       "confidence": 0.92,
       "owner": "support",
       "automationPossible": false,
-      "score": 0.715,
+      "score": 0.718,
       "evidence": [
         {
           "type": "support",
@@ -12954,8 +12732,8 @@
         {
           "type": "order",
           "label": "order_risk",
-          "value": 0.583,
-          "weight": 0.583
+          "value": 0.601,
+          "weight": 0.601
         },
         {
           "type": "shipping",
@@ -12969,10 +12747,10 @@
         "ORD-10417",
         "CUS-2070"
       ],
-      "id": "d90fb22e5164f570",
-      "snapshotId": "776d56b15b90d55c",
-      "rank": 9,
-      "createdAt": "2026-04-28T18:22:08.766Z",
+      "id": "13ea7ef9a0ccb251",
+      "snapshotId": "625f5258e8164896",
+      "rank": 8,
+      "createdAt": "2026-04-28T18:20:25.220Z",
       "status": "new"
     },
     {
@@ -13017,103 +12795,164 @@
         "CMP-780",
         "ZIP-BLK-M"
       ],
-      "id": "c66669b32828d657",
-      "snapshotId": "776d56b15b90d55c",
+      "id": "bee6777f9af5c903",
+      "snapshotId": "625f5258e8164896",
+      "rank": 9,
+      "createdAt": "2026-04-28T18:20:25.220Z",
+      "status": "new"
+    },
+    {
+      "actionType": "escalate_ticket",
+      "severity": "medium",
+      "targetType": "ticket",
+      "targetId": "TCK-5504",
+      "title": "Escalar ticket TCK-5504",
+      "reason": "Ticket high abierto en soporte. Esta ligado al pedido ORD-10452.",
+      "expectedImpact": "Reducir friccion de soporte, contener mala experiencia y evitar escalado publico del problema.",
+      "confidence": 0.92,
+      "owner": "support",
+      "automationPossible": false,
+      "score": 0.68,
+      "evidence": [
+        {
+          "type": "support",
+          "label": "urgency",
+          "value": "high",
+          "weight": 0.78
+        },
+        {
+          "type": "support",
+          "label": "sentiment",
+          "value": "negative",
+          "weight": 0.9
+        },
+        {
+          "type": "order",
+          "label": "order_risk",
+          "value": 0.413,
+          "weight": 0.413
+        },
+        {
+          "type": "shipping",
+          "label": "shipping_method",
+          "value": "standard",
+          "weight": 0.25
+        }
+      ],
+      "relatedEntityIds": [
+        "TCK-5504",
+        "ORD-10452",
+        "CUS-2069"
+      ],
+      "id": "f1a2b842455e895a",
+      "snapshotId": "625f5258e8164896",
       "rank": 10,
-      "createdAt": "2026-04-28T18:22:08.766Z",
+      "createdAt": "2026-04-28T18:20:25.220Z",
       "status": "new"
     }
   ],
   "notifications": [
     {
-      "id": "notif-1a5302c0f71dd5a7",
+      "id": "notif-data-quality-18",
+      "category": "data_quality",
+      "severity": "medium",
+      "title": "Calidad de dato imperfecta",
+      "message": "El dataset trae 18 warning(s) de parseo o esquema. El snapshot sigue siendo usable, pero conviene revisarlos.",
+      "targetId": "dataset",
+      "relatedActionId": null,
+      "shouldNotifyTelegram": false,
+      "deliveryStatus": "skipped",
+      "createdAt": "2026-04-28T18:20:25.220Z"
+    },
+    {
+      "id": "notif-1a23ada4cecaf199",
       "category": "pause_campaign",
       "severity": "critical",
       "title": "Pausar CMP-778 sobre HOODIE-BLK-M",
       "message": "Campana activa empujando demanda ahora mismo. El SKU HOODIE-BLK-M concentra la presion mas inmediata. Owner sugerido: growth.",
       "targetId": "CMP-778",
-      "relatedActionId": "1a5302c0f71dd5a7",
+      "relatedActionId": "1a23ada4cecaf199",
       "shouldNotifyTelegram": true,
       "deliveryStatus": "pending",
-      "createdAt": "2026-04-28T18:22:08.766Z"
+      "createdAt": "2026-04-28T18:20:25.220Z"
     },
     {
-      "id": "notif-2ef97545eb591bf4",
+      "id": "notif-509eaaebc45fc03c",
       "category": "escalate_ticket",
       "severity": "critical",
       "title": "Escalar ticket TCK-5516",
       "message": "Ticket urgent abierto en soporte. Esta ligado al pedido ORD-10567. Owner sugerido: support.",
       "targetId": "TCK-5516",
-      "relatedActionId": "2ef97545eb591bf4",
+      "relatedActionId": "509eaaebc45fc03c",
       "shouldNotifyTelegram": true,
       "deliveryStatus": "pending",
-      "createdAt": "2026-04-28T18:22:08.766Z"
+      "createdAt": "2026-04-28T18:20:25.220Z"
     },
     {
-      "id": "notif-07468d87605cadfc",
+      "id": "notif-94e2e01210ce0d25",
       "category": "alert_stock",
       "severity": "critical",
       "title": "Proteger stock de HOODIE-BLK-M",
       "message": "Stock disponible critico (2 uds). Hay campanas activas amplificando el riesgo. Owner sugerido: inventory.",
       "targetId": "HOODIE-BLK-M",
-      "relatedActionId": "07468d87605cadfc",
+      "relatedActionId": "94e2e01210ce0d25",
       "shouldNotifyTelegram": true,
       "deliveryStatus": "pending",
-      "createdAt": "2026-04-28T18:22:08.766Z"
+      "createdAt": "2026-04-28T18:20:25.220Z"
     },
     {
-      "id": "notif-4f240cd0d69b18c5",
-      "category": "manual_review",
-      "severity": "critical",
-      "title": "Resolver bloqueo logistico ORD-10433",
-      "message": "La Shipping Status API confirma un retraso en curso. La Shipping Status API cambia la prioridad de este pedido. Owner sugerido: operations.",
-      "targetId": "ORD-10433",
-      "relatedActionId": "4f240cd0d69b18c5",
-      "shouldNotifyTelegram": true,
-      "deliveryStatus": "pending",
-      "createdAt": "2026-04-28T18:22:08.766Z"
-    },
-    {
-      "id": "notif-7912fc5ed96b133e",
-      "category": "escalate_ticket",
-      "severity": "high",
-      "title": "Escalar ticket TCK-5510",
-      "message": "Ticket urgent abierto en soporte. Esta ligado al pedido ORD-10517. Owner sugerido: support.",
-      "targetId": "TCK-5510",
-      "relatedActionId": "7912fc5ed96b133e",
-      "shouldNotifyTelegram": true,
-      "deliveryStatus": "pending",
-      "createdAt": "2026-04-28T18:22:08.766Z"
-    },
-    {
-      "id": "notif-4a1a2c23975424d8",
+      "id": "notif-92f730f831c3ae6b",
       "category": "escalate_ticket",
       "severity": "high",
       "title": "Escalar ticket TCK-5505",
       "message": "Ticket high abierto en soporte. Esta ligado al pedido ORD-10460. Owner sugerido: support.",
       "targetId": "TCK-5505",
-      "relatedActionId": "4a1a2c23975424d8",
+      "relatedActionId": "92f730f831c3ae6b",
       "shouldNotifyTelegram": true,
       "deliveryStatus": "pending",
-      "createdAt": "2026-04-28T18:22:08.766Z"
+      "createdAt": "2026-04-28T18:20:25.220Z"
     },
     {
-      "id": "notif-d90fb22e5164f570",
+      "id": "notif-32be4c9d316da6d9",
+      "category": "escalate_ticket",
+      "severity": "high",
+      "title": "Escalar ticket TCK-5510",
+      "message": "Ticket urgent abierto en soporte. Esta ligado al pedido ORD-10517. Owner sugerido: support.",
+      "targetId": "TCK-5510",
+      "relatedActionId": "32be4c9d316da6d9",
+      "shouldNotifyTelegram": true,
+      "deliveryStatus": "pending",
+      "createdAt": "2026-04-28T18:20:25.220Z"
+    },
+    {
+      "id": "notif-13ea7ef9a0ccb251",
       "category": "escalate_ticket",
       "severity": "high",
       "title": "Escalar ticket TCK-5502",
       "message": "Ticket high abierto en soporte. Esta ligado al pedido ORD-10417. Owner sugerido: support.",
       "targetId": "TCK-5502",
-      "relatedActionId": "d90fb22e5164f570",
+      "relatedActionId": "13ea7ef9a0ccb251",
       "shouldNotifyTelegram": true,
       "deliveryStatus": "pending",
-      "createdAt": "2026-04-28T18:22:08.766Z"
+      "createdAt": "2026-04-28T18:20:25.220Z"
+    },
+    {
+      "id": "notif-f1a2b842455e895a",
+      "category": "escalate_ticket",
+      "severity": "medium",
+      "title": "Escalar ticket TCK-5504",
+      "message": "Ticket high abierto en soporte. Esta ligado al pedido ORD-10452. Owner sugerido: support.",
+      "targetId": "TCK-5504",
+      "relatedActionId": "f1a2b842455e895a",
+      "shouldNotifyTelegram": true,
+      "deliveryStatus": "pending",
+      "createdAt": "2026-04-28T18:20:25.220Z"
     }
   ],
   "persistence": {
     "mode": "local_json",
     "persisted": true,
-    "persistedAt": "2026-04-28T18:22:08.768Z",
+    "persistedAt": "2026-04-28T18:20:25.239Z",
     "storeDir": "C:\\Users\\Juan\\Desktop\\HACK-SCUFFERS\\scuffers-ops-control-tower\\storage\\demo-state"
   }
 }
